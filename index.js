@@ -26,3 +26,36 @@ function testnum(a){
     return results;
 }
 console.log(testnum(20));
+
+/*user inputs values immediatly on the website
+function numTest(a){
+    let result;
+    if(a>0){
+        result = "positive";
+    }
+    else{
+        result = "Not positive";
+    }
+    return result;
+}
+let UserInput = prompt("Enter a number to confirm if it's positive or not");
+let number = Number(UserInput);
+
+alert(numTest(number));*/
+
+/*linked to the html*/
+function lasttest(a){
+    let answer;
+    if (a>0) {
+        answer = "positive";
+    }
+    else {
+        answer = "Not positive";
+    }
+    return answer
+}
+function checknumber(){
+    let input = document.getElementById("numberInput").value;
+    let answer = lasttest(Number(input));
+    document.getElementById("output").textContent = answer;
+}

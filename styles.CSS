@@ -7,7 +7,7 @@ body{
 }
 .box {
     padding: 10px;
-    background-color: #567895;
+    background-color: #31363b;
     color: white;
     border-radius: 8px;
     margin-bottom: 20p;
@@ -39,6 +39,25 @@ th, td{
 th{
     background-color: rgb(240, 238, 238);
     text-align: center;
+}
+.numbers{
+    padding: 2rem;
+    background-color:white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.15);
+    text-align:center;
+    }
+button{
+    padding: 0.1px;
+    background-color: rgb(71, 57, 39);
+    color: azure;
+    border-radius: 0.1px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#output{
+    font-size: 1.2rem;
+    margin-top: 1rem;
 }
 footer{
     text-align: center;
